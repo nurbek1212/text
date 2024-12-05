@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.contener{
+    width: 80%;
+
+    margin: 0 auto;
+}
+.porfoliy1{
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.porfoliy{
+    position: relative;
+    overflow: hidden;
+    width: 20%;
+    height: 280;
+    box-shadow: 0 0 10px black;
+    line-height: 20px;
+    padding-bottom: 20px;
+    background-color: white;;
+    border-radius: 10px;
+
+}
+.porfoliy img{
+    width: 150px;
+    height: 200px;
+    transform: translateY(-50px);
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+.text{
+    transform: translateY(-20px);
+    background-color: white;
+}
+body{
+    background-color: darkcyan;
+}
+.answ{
+    margin: 0 auto;
+    width: 81%;
+    height: 340px;
+    display: flex;
+    justify-content: space-around;
+}
+.answe{
+    font-size: 70px;
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    padding-top: 40px;  
+    background-color: white;
+    overflow: hidden;
+    transition: 1s;
+}
+.answe p{
+    width: 200px;
+    height: 150px;
+    background-color: white;
+    padding-top: 20px;
+    font-size: 15px;
+}
+.answe h1{
+    font-size: 20px;
+    padding-top: 20px;
+}
+.text1{
+    background-color: red;
+}
+.text2{
+    background-color: blue;
+}
+.text3{
+    background-color: rgb(108, 206, 206);
+}
+.text1 i{
+    color: white;
+}
+.text2 i{
+    color: white;
+}
+.text3 i{
+    color: white;
+}
+.qwe{
+    background-color: white;
+    margin-top: 40px;
+}
